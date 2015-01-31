@@ -5,10 +5,11 @@ using namespace std;
       
 int main() {  
 stack<int> intStack;  
-intStack.push(16);  
-intStack.push(8);  
-intStack.push(20);  
-intStack.push(3);  
+
+for(int i=0; i < 10 ;i++ )
+{
+   intStack.push(i);  
+}
   
 cout << "top of intStack:" << intStack.top() << endl;  
 intStack.pop();  
